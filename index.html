@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+<div id="main">
+  <div class="container">
+  <nav>
+    <img src="img/logo.png" alt="" class="logo">
+    <ul class="nav-list">
+      <li><a href="#main">Home</a></li>
+      <li><a href="#about-us">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#question">Contact</a></li>
+      <li><button class="btn btn-secondary">Get Started</button></li>
+    </ul>
+    <img src="img/menu.svg" alt="" class="menu-btn">
+  </nav>
+
+
+  <div class="main-content">
+    
+    <h1 class="intro-heading">We all love</h1>
+    <h1 class="main-heading">nature</h1>
+    <p>
+      Look deep into the nature, and you will aunderstand everything better.
+    </p>
+    <button class="btn btn-primary">Get Started</button>
+  </div>
+</div>
+</div>
+
+
+<section id="services">
+  <div class="container">
+    <div class="section-title">
+      <h1>Our Services</h1>
+      <div class="line"></div>
+    </div>
+    <div class="services">
+      <div class="service">
+        <img src="img/service-1.png" alt="">
+        <h3>Web design</h3>
+        <p>
+          Focus on how you can help and benefit your user. Use simple words so that you do not confuse people.
+        </p>
+      </div>
+    <div class="services">
+      <div class="service">
+        <img src="img/service-2.png" alt="">
+        <h3>Graphic design</h3>
+        <p>
+          Focus on how you can help and benefit your user. Use simple words that you do not confuse people.
+        </p>
+      </div>
+    <div class="services">
+      <div class="service">
+        <img src="img/service-3.png" alt="">
+        <h3>Content Creation</h3>
+        <p>
+          Focus on how you can help and benefit your user. Use simple words so that you do not confuse people.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonail">
+  <div class="container">
+    <img src="img/quote.png" alt="">
+    <h1>
+      "Original and with an innate understanding of thier customers's needs, the 
+      team at Love Neture are always a pleasure to work with."
+    </h1>
+    <div class="profile">
+      <img src="FHQT5FSZM6_D8006586.jpg" alt="">
+      <h4>Sohail Ashraq</h4>
+    </div>
+  </div>
+</section>
+
+<seection id="about-us">
+  <div class="container">
+    <div class="about-content">
+      <h4>ABOUT US</h4>
+      <H1>Tell website visitors who you are and why they should choose your business.</H1>
+      <p>beacause when a visitor frist lands on your website,
+        your're a stranger to them. They have to get to know you in order to want to read your blog posts
+        ,subscribe your email newsletter, or buy what you're selling.
+      </p>
+      <button class="btn btn-primary">Let's Talk Now</button>
+    </div>
+    <div class="about-image">
+      <img id="car" src="img/about.png" alt="">
+    </div>
+  </div>
+</seection>
+
+<section id="question">
+<div class="container">
+  <h1>QUESTIONS</h1>
+  <p>
+    Whether you're curious about features, a free trial, or even press,
+     we're here to answer any question.
+  </p>
+  <button class="btn btn-primary">Lets' Talk Now</button>
+</div>
+</section>
+
+<footer>
+  <div class="container">
+    <ul class="footer-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="Logn/index.html">Login</a></li>
+      <li><a href="Logn/boot.html">Gallery</a></li>
+      
+      
+    </ul>
+    <img src="img/logo-colored.png" alt="" class="footerLogo">
+    <p>Love Nature By Sohail Ashraq</p>
+  </div>
+</footer>
+
+
+<script>
+
+  const navBtn = document.querySelector('.menu-btn');
+  const navList = document.querySelector('.nav-list');
+
+
+  navBtn.addEventListener('click', function(){
+    navList.classList.toggle("active");
+
+  });
+</script>
+</body>
+</html>
